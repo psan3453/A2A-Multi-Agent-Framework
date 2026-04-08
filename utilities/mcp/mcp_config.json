@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "terminal_server": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "D:\\A2A_MCP\\mcp_local\\servers\\terminal_server",
+        "run",
+        "terminal_server.py"
+      ]
+    },
+    "arithmetic_server": {
+      "command": "streamable_http",
+      "args": [
+        "http://localhost:3000/mcp/"
+      ]
+    }
+  }
+}
